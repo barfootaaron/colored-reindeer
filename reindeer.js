@@ -24,15 +24,8 @@ var reindeer = 	["Dasher",
 var hohohoElement = document.getElementById("coloredReindeer");
 
 
-
 for (var i=0; i<reindeer.length; i++) {
-	coloredReindeer.innerHTML = colors[i].concat(reindeer[i]);
+	coloredReindeer.innerHTML += '<ul><li>' + colors[i].toString() + ' ' + reindeer[i] + '</li></ul>';
 }
 
-
-
-//coloredReindeer.innerHTML = colors[i].concat(reindeer[i]);
-//function makeUL (array) {
-
-//	var list = document.createElement('ul');
 
